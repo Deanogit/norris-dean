@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chuck Norris Joke Generator</title>
+  </head>
+  <body class="w-full h-screen bg-stone-300 font-display">
+    <div class="container mx-auto p-20">
+      <div
+        class="flex flex-col items-center justify-center p-12 mx-w-md bg-stone-100 shadow-sm mt-4 h-3/4 border-4 border-stone-800"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/30/Chuck_Norris_May_2015.jpg"
+          alt=""
+          class="w-32 rounded-sm border-4 border-stone-800 mb-3"
+        />
+        <h3 class="text-2xl tracking-wide pb-4 underline">
+          Chuck Norris Jokes
+        </h3>
+        <div id="joke" class="joke p-8 mb-6 text-2xl">Loading...</div>
+        <button
+          id="joke-btn"
+          class="btn py-4 px-10 bg-stone-600 text-stone-50 text-lg rounded-sm border-4 border-stone-800"
+        >
+          Get Another Joke
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
